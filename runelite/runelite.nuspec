@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>runelite</id>
+    <version>2.1.0</version>
+    <packageSourceUrl>https://github.com/w0/chocolatey-runelite</packageSourceUrl>
+    <owners>wizard</owners>
+    <title>Runelite</title>
+    <authors>RuneLite</authors>
+    <projectUrl>https://github.com/runelite/runelite</projectUrl>
+    <iconUrl>https://cdn.statically.io/gh/w0/chocolatey-runelite/8717c203/icon/runelite_logo_transparent.png</iconUrl>
+    <copyright>2016, Adam Adam@sigterm.info</copyright>
+    <licenseUrl>https://github.com/runelite/runelite/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://runelite.net/</projectSourceUrl>
+    <docsUrl>https://github.com/runelite/runelite/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/runelite/launcher/issues</bugTrackerUrl>
+    <tags>runelite osrs runescape old school</tags>
+    <summary>A popular free, open-source and super fast client for Old School RuneScape</summary>
+    <description>A popular free, open-source and super fast client for Old School RuneScape</description>
+    <releaseNotes>https://runelite.net/blog</releaseNotes>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
