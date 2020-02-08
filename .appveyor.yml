@@ -19,8 +19,8 @@ environment:
 
   # Github token to commit pushed packages to repository
   github_user_repo: {github_user}/{repository}
-    github_api_key:
-      secure: wHoAG+7jA550b83/wWFSA9Lm6NzNbqlTmCNEfDCb9uLkX3xu6lHl+WX5Pjj4Sktc
+  github_api_key:
+    secure: wHoAG+7jA550b83/wWFSA9Lm6NzNbqlTmCNEfDCb9uLkX3xu6lHl+WX5Pjj4Sktc
 
 
   # Mail credentials - for error notifications
