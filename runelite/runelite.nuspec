@@ -4,12 +4,12 @@
   <metadata>
     <id>runelite</id>
     <version>2.1.0</version>
-    <packageSourceUrl>https://github.com/w0/chocolatey-runelite</packageSourceUrl>
+    <packageSourceUrl>https://github.com/w0/au-packages/tree/master/runelite</packageSourceUrl>
     <owners>wizard</owners>
     <title>Runelite</title>
     <authors>RuneLite</authors>
     <projectUrl>https://github.com/runelite/runelite</projectUrl>
-    <iconUrl>https://cdn.statically.io/gh/w0/chocolatey-runelite/8717c203/icon/runelite_logo_transparent.png</iconUrl>
+    <iconUrl>https://cdn.statically.io/gh/w0/au-packages/40c2ed6c/runelite/icon/runelite_logo_transparent.png</iconUrl>
     <copyright>2016, Adam Adam@sigterm.info</copyright>
     <licenseUrl>https://github.com/runelite/runelite/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
