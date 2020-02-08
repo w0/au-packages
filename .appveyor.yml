@@ -19,13 +19,13 @@ environment:
 
   # Github token to commit pushed packages to repository
   github_user_repo: {github_user}/{repository}
-  github_api_key:
-    secure: 0E13QMfBn6bog1WncQLaRBdV3Gi4JS0PTFUMJMU4pltrJpcIWbmLgBZ33FN/zymb 
+    github_api_key:
+      secure: wHoAG+7jA550b83/wWFSA9Lm6NzNbqlTmCNEfDCb9uLkX3xu6lHl+WX5Pjj4Sktc
 
 
   # Mail credentials - for error notifications
   #mail_user:
-  #  secure: YOUR_EMAIL_ACCOUNT_HERE_ENCRYPTED_STRING #https://ci.appveyor.com/tools/encrypt
+  #  secure: YOUR_EMAIL_ACCOUNT_HERE_ENCRYPTED_STRING 
   #mail_pass:
   #  secure: YOUR_EMAIL_PASSWORD_HERE_ENCRYPTED_STRING #https://ci.appveyor.com/tools/encrypt
   #mail_server: smtp.gmail.com
