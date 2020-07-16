@@ -1,10 +1,11 @@
-﻿$ErrorActionPreference = 'Stop';
+﻿
+$ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  softwareName  = 'RuneLite*'
+  softwareName  = 'OpenOSRS*'
   fileType      = 'exe'
-  silentArgs    = '/VERYSILENT /SUPPRESSMSGBOXES'
-  validExitCodes= @(0, 3010, 1605, 1614, 1641)
+  silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+  validExitCodes= @(0)
 }
 
 $uninstalled = $false
