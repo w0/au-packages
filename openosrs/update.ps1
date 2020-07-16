@@ -1,4 +1,4 @@
-$releases = 'https://github.com/runelite/launcher/releases'
+$releases = 'https://github.com/open-osrs/launcher/releases'
 $domain   = 'https://github.com/'
 
 
@@ -17,8 +17,8 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing #1
 
-    $url64   = $download_page.links | ? href -match '\.exe$' | % href | select -first 1   
-    $url32   = $download_page.links | ? href -match '\.exe$' | % href | select -first 1 -skip 1
+    $url64   = $download_page.links | ? href -match '\.exe$' | % href | select -first 1 -skip 1   
+    $url32   = $download_page.links | ? href -match '\.exe$' | % href | select -first 1
     $version = $url32 -split '/' | select -last 1 -skip 1 
 
     return @{    
