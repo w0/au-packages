@@ -1,8 +1,8 @@
 ﻿
 $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/open-osrs/launcher/releases/download/2.2.0/OpenOSRSSetup32.exe'
-$url64      = 'https://github.com/open-osrs/launcher/releases/download/2.2.0/OpenOSRSSetup64.exe'
+$url        = ''
+$url64      = ''
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -13,9 +13,9 @@ $packageArgs = @{
 
   softwareName  = 'openosrs*'
 
-  checksum      = '95077C2E7CFE1C7C3996F8A9A0C7F3F83BA25F8C754996E398351283D2119925'
+  checksum      = ''
   checksumType  = 'sha256'
-  checksum64    = '78FCE3AB441F3DF3F23D8986AD5F16C11FBA78AAFB34AF8031A5EED36405146A'
+  checksum64    = ''
   checksumType64= 'sha256'
 
   silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'

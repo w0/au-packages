@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>openosrs</id>
-    <version>2.2.0</version>
+    <version>0</version>
     <owners>wizard</owners>
     <title>OpenOSRS</title>
     <authors>OpenOSRS</authors>
