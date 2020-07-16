@@ -8,7 +8,7 @@
     <title>OpenOSRS</title>
     <authors>OpenOSRS</authors>
     <projectUrl>https://openosrs.com/</projectUrl>
-    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/openosrs.png</iconUrl>-->
+    <iconUrl>https://cdn.statically.io/gh/w0/au-packages/89342735/openosrs/icon/openosrs_icon.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <licenseUrl>https://github.com/open-osrs/launcher/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
