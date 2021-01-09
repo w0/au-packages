@@ -17,6 +17,9 @@
     <summary>RuneScape 3, is a fantasy massively multiplayer online role-playing game.</summary>
     <description>RuneScape, sometimes referred to as RuneScape 3, is a fantasy massively multiplayer online role-playing game developed and published by Jagex, first released in January 2001.</description>
     <releaseNotes>https://secure.runescape.com/m=news/</releaseNotes>
+    <dependencies>
+      <dependency id='directx' />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
