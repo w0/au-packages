@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>runescape</id>
+    <version>2.2.8</version>
+    <packageSourceUrl>https://github.com/w0/au-packages/tree/master/runescape</packageSourceUrl>
+    <owners>benbristow wizard</owners>
+    <title>RuneScape Client</title>
+    <authors>Jagex Ltd.</authors>
+    <projectUrl>https://www.runescape.com/</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/runescape.png</iconUrl>
+    <copyright>2021 Jagex Ltd. RuneScape</copyright>
+    <licenseUrl>https://www.jagex.com/en-GB/legal/eula-runescape-oldschool</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <docsUrl>https://support.runescape.com/hc/en-gb/categories/200977411</docsUrl>
+    <tags>runescape jagex games</tags>
+    <summary>RuneScape 3, is a fantasy massively multiplayer online role-playing game.</summary>
+    <description>RuneScape, sometimes referred to as RuneScape 3, is a fantasy massively multiplayer online role-playing game developed and published by Jagex, first released in January 2001.</description>
+    <releaseNotes>https://secure.runescape.com/m=news/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
