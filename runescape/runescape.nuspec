@@ -5,13 +5,13 @@
     <version>2.2.8</version>
     <packageSourceUrl>https://github.com/w0/au-packages/tree/master/runescape</packageSourceUrl>
     <owners>benbristow wizard</owners>
-    <title>RuneScape Client</title>
+    <title>RuneScape</title>
     <authors>Jagex Ltd.</authors>
     <projectUrl>https://www.runescape.com/</projectUrl>
     <iconUrl>https://cdn.statically.io/gh/w0/au-packages/d48b1a93/runescape/icon/runescape_launcher.png</iconUrl>
     <copyright>2021 Jagex Ltd. RuneScape</copyright>
     <licenseUrl>https://www.jagex.com/en-GB/legal/eula-runescape-oldschool</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <docsUrl>https://support.runescape.com/hc/en-gb/categories/200977411</docsUrl>
     <tags>runescape jagex games</tags>
     <summary>RuneScape 3, is a fantasy massively multiplayer online role-playing game.</summary>
