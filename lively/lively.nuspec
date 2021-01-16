@@ -19,7 +19,9 @@
     <bugTrackerUrl>https://github.com/rocksdanister/lively/issues</bugTrackerUrl>
     <tags>lively foss wallpaper live</tags>
     <summary>Animated desktop wallpapers, bring your desktop to life!</summary>
-    <description><![CDATA[## Features
+    <description><![CDATA[Turn Video & GIF Files, Emulators, HTML, Web address & Shaders, Games into Windows desktop wallpaper; Wallpapers will completely pause playback( 0% cpu & gpu usage) when fullscreen application/games are running.
+
+## Features
 *Wait a sec, preview gif clips take some time to load.*
 #### Video
 ![screenshot](https://cdn.jsdelivr.net/gh/rocksdanister/lively@dev-v1.0-fluent-netcore/resources/wallpaper_video.gif)
@@ -77,7 +79,7 @@
 ]]></description>
     <dependencies>
       <dependency id="vcredist140" version="14.24.28127.4" />
-      <dependency id="dotnetcore-desktopruntime" version='3.1.9' />
+      <dependency id="dotnetcore-desktopruntime" version="3.1.9" />
     </dependencies>
   </metadata>
   <files>
