@@ -1,4 +1,4 @@
-
+﻿
 $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url        = 'https://github.com/rocksdanister/lively/releases/download/v1.1.8.0/lively_setup_x86_full_v1180.exe'
