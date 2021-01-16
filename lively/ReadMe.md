@@ -1,4 +1,6 @@
-﻿Turn Video & GIF Files, Emulators, HTML, Web address & Shaders, Games into Windows desktop wallpaper; Wallpapers will completely pause playback( 0% cpu & gpu usage) when fullscreen application/games are running.
+﻿# <img src="https://cdn.jsdelivr.net/gh/w0/au-packages/lively/icon.png" width="48" height="48"/>  [![](https://img.shields.io/chocolatey/v/lively.svg?color=red&label=lively)](https://chocolatey.org/packages/lively)
+
+Turn Video & GIF Files, Emulators, HTML, Web address & Shaders, Games into Windows desktop wallpaper; Wallpapers will completely pause playback( 0% cpu & gpu usage) when fullscreen application/games are running.
 
 ## Features
 *Wait a sec, preview gif clips take some time to load.*
