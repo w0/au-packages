@@ -76,7 +76,7 @@
 - Different wallpaper per screens.
 ]]></description>
     <dependencies>
-      <dependency id="vcredist140" version="[14.24.28127.4]" />
+      <dependency id="vcredist140" version="14.24.28127.4" />
       <dependency id="dotnetcore-desktopruntime" version='3.1.9' />
     </dependencies>
   </metadata>
