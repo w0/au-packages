@@ -22,38 +22,38 @@
     <description><![CDATA[## Features
 *Wait a sec, preview gif clips take some time to load.*
 #### Video
-<img src="https://cdn.jsdelivr.net/gh/rocksdanister/lively@dev-v1.0-fluent-netcore/resources/wallpaper_video.gif" width="600" height="338"/>
+![screenshot](https://cdn.jsdelivr.net/gh/rocksdanister/lively@dev-v1.0-fluent-netcore/resources/wallpaper_video.gif)
 
-<a href="https://visualdon.uk/project/eternal-light/">Eternal Light</a> by VISUALDON
+[Eternal Light](https://visualdon.uk/project/eternal-light) by VISUALDON
 * Powered by mpv and vlc player.
 * Customize videos with filters.
 * Hardware Acceleration support.
 #### Webpages
-<img src="https://cdn.jsdelivr.net/gh/rocksdanister/lively@dev-v1.0-fluent-netcore/resources/wallpaper_html.gif" width="600" height="338"/>
+![screenshot](https://cdn.jsdelivr.net/gh/rocksdanister/lively@dev-v1.0-fluent-netcore/resources/wallpaper_html.gif)
 
-<a href="http://louie.co.nz/25th_hour/"> 25th Hour</a> by Loius Coyle
+[25th Hour](http://louie.co.nz/25th_hour) by Loius Coyle
 * Load HTML file or web address as wallpaper.
 * Runs webgl, javascript .. basically anything that works on chrome.
-* Audio Reactive Wallpaper support, create wallpapers that react to <a href="https://github.com/rocksdanister/lively/wiki/Web-Guide-II-:-System-Audio-Data">system audio</a>
-* Customisation support, <a href="https://github.com/rocksdanister/lively/wiki/Web-Guide-IV-:-Interaction">documentation.</a>
+* Audio Reactive Wallpaper support, create wallpapers that react to [system audio](https://github.com/rocksdanister/lively/wiki/Web-Guide-II-:-System-Audio-Data).
+* Customisation support, [documentation](https://github.com/rocksdanister/lively/wiki/Web-Guide-IV-:-Interaction).
 #### Video Streams
-<img src="https://cdn.jsdelivr.net/gh/rocksdanister/lively@dev-v1.0-fluent-netcore/resources/wallpaper_yt.gif" width="600" height="338"/>
+![screenshot](https://cdn.jsdelivr.net/gh/rocksdanister/lively@dev-v1.0-fluent-netcore/resources/wallpaper_yt.gif)
 
 * Just drag & drop stream links.
 * Video quality is adjustable in settings.
 #### Shaders
-<img src="https://cdn.jsdelivr.net/gh/rocksdanister/lively@dev-v1.0-fluent-netcore/resources/wallpaper_shadertoy.gif" width="600" height="338"/>
+![screenshot](https://cdn.jsdelivr.net/gh/rocksdanister/lively@dev-v1.0-fluent-netcore/resources/wallpaper_shadertoy.gif)
 
-<a href="https://www.shadertoy.com/view/ltffzl">Heartfelt </a> by BigWIngs
+[Heartfelt](https://www.shadertoy.com/view/ltffzl)
 * Run GLSL shaders in browser.
 * Shadertoy.com urls are supported as wallpaper.
 #### GIFs
-<img src="https://cdn.jsdelivr.net/gh/rocksdanister/lively@dev-v1.0-fluent-netcore/resources/wallpaper_gif.gif" width="600" height="338"/>
+![screenshot](https://cdn.jsdelivr.net/gh/rocksdanister/lively@dev-v1.0-fluent-netcore/resources/wallpaper_gif.gif)
 
-<a href="https://giphy.com/gifs/nyan-cat-sIIhZliB2McAo"> Nyan cat</a>
+[Nyan Cat](https://giphy.com/gifs/nyan-cat-sIIhZliB2McAo)
 * Make Memes/Cinemagraphs as wallpaper ... 
 #### Retro Game Emulators
-<img src="https://cdn.jsdelivr.net/gh/rocksdanister/lively@dev-v1.0-fluent-netcore/resources/wallpaper_emulator.gif" width="600" height="338"/>
+![screenshot](https://cdn.jsdelivr.net/gh/rocksdanister/lively@dev-v1.0-fluent-netcore/resources/wallpaper_emulator.gif)
 
 * Coming soon
 #### Games & Applications
@@ -77,7 +77,7 @@
 ]]></description>
     <dependencies>
       <dependency id="vcredist140" version="[14.24.28127.4]" />
-      <dependency id="dotnetcore-desktopruntime" version='3.1.9' />
+      <dependency id="dotnetcore-desktopruntime" version="3.1.9" />
     </dependencies>
   </metadata>
   <files>
