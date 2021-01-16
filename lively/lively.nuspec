@@ -4,9 +4,9 @@
   <metadata>
     <id>lively</id>
     <version>1.1.8.0</version>
-    <packageSourceUrl>https://github.com/w0/au-packages/lively</packageSourceUrl>
+    <packageSourceUrl>https://github.com/w0/au-packages/tree/master/lively</packageSourceUrl>
     <owners>wizard</owners>
-    <title>lively</title>
+    <title>Lively Wallpaper</title>
     <authors>rocksdanister</authors>
     <projectUrl>https://rocksdanister.github.io/lively</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/w0/au-packages/lively/icon.png</iconUrl>
@@ -77,7 +77,7 @@
 ]]></description>
     <dependencies>
       <dependency id="vcredist140" version="[14.24.28127.4]" />
-      <dependency id="dotnetcore-desktopruntime" />
+      <dependency id="dotnetcore-desktopruntime" version='3.1.9' />
     </dependencies>
   </metadata>
   <files>
