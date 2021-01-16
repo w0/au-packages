@@ -11,6 +11,10 @@ function global:au_SearchReplace {
             "(?i)(^\s*fileType\s*=\s*)('.*')"     = "`$1'$($Latest.FileType)'"
 
         }
+
+        "$($Latest.PackageName).nuspec" = @{
+            "(\<releaseNotes\>).*?(\</releaseNotes\>)" = "`${1}$($Latest.ReleaseNotes)`$2"
+        }
     }
 }
 
@@ -26,8 +30,8 @@ function global:au_GetLatest {
     @{
         Version      = $version.TrimStart('v')
         URL32        = $url
-        ReleaseNotes = ''
+        ReleaseNotes = "https://github.com/rocksdanister/lively/releases/tag/${version}"
     }
 }
 
-update 
+update
