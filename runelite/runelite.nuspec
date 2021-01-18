@@ -3,22 +3,33 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>runelite</id>
-    <version>2.1.6</version>
+    <version>2.1.6.20210118</version>
     <packageSourceUrl>https://github.com/w0/au-packages/tree/master/runelite</packageSourceUrl>
     <owners>wizard</owners>
-    <title>Runelite</title>
+    <title>RuneLite</title>
     <authors>RuneLite</authors>
-    <projectUrl>https://github.com/runelite/runelite</projectUrl>
-    <iconUrl>https://cdn.statically.io/gh/w0/au-packages/40c2ed6c/runelite/icon/runelite_logo_transparent.png</iconUrl>
-    <copyright>2016, Adam</copyright>
-    <licenseUrl>https://github.com/runelite/runelite/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://runelite.net/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/w0/au-packages/runelite/icon.png</iconUrl>
+    <copyright>2016 RuneLite Adam</copyright>
+    <licenseUrl>https://github.com/runelite/launcher/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <projectSourceUrl>https://runelite.net/</projectSourceUrl>
+    <projectSourceUrl>https://github.com/runelite/launcher</projectSourceUrl>
     <docsUrl>https://github.com/runelite/runelite/wiki</docsUrl>
     <bugTrackerUrl>https://github.com/runelite/launcher/issues</bugTrackerUrl>
-    <tags>runelite osrs runescape old school</tags>
+    <tags>runelite osrs runescape old school games</tags>
     <summary>A popular free, open-source and super fast client for Old School RuneScape</summary>
-    <description>A popular free, open-source and super fast client for Old School RuneScape</description>
+    <description><![CDATA[RuneLite is a free, open source OldSchool RuneScape client.
+
+If you have any questions, please join our IRC channel on [irc.rizon.net #runelite](http://qchat.rizon.net/?channels=runelite&uio=d4) or alternatively our [Discord](https://discord.gg/mePCs8U) server.
+
+## Project Layout
+
+- [cache](cache/src/main/java/net/runelite/cache) - Libraries used for reading/writing cache files, as well as the data in it
+- [http-api](http-api/src/main/java/net/runelite/http/api) - API for api.runelite.net
+- [http-service](http-service/src/main/java/net/runelite/http/service) - Service for api.runelite.net
+- [runelite-api](runelite-api/src/main/java/net/runelite/api) - RuneLite API, interfaces for accessing the client
+- [runelite-client](runelite-client/src/main/java/net/runelite/client) - Game client with plugins
+]]></description>
     <releaseNotes>https://runelite.net/blog</releaseNotes>
   </metadata>
   <files>

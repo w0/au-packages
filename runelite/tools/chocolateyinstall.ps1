@@ -2,13 +2,12 @@
 $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe'
-  url           = 'https://github.com//runelite/launcher/releases/download/2.1.6/RuneLiteSetup32.exe'
-  url64         = 'https://github.com//runelite/launcher/releases/download/2.1.6/RuneLiteSetup.exe'
+  url           = 'https://github.com/runelite/launcher/releases/download/2.1.6/RuneLiteSetup32.exe'
+  url64         = 'https://github.com/runelite/launcher/releases/download/2.1.6/RuneLiteSetup.exe'
 
   softwareName  = 'runelite*'
 
@@ -21,4 +20,3 @@ $packageArgs = @{
 }
 
 Install-ChocolateyPackage @packageArgs
-
