@@ -1,15 +1,13 @@
 ﻿
 $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com//open-osrs/launcher/releases/download/2.2.0/OpenOSRSSetup32.exe'
-$url64      = 'https://github.com//open-osrs/launcher/releases/download/2.2.0/OpenOSRSSetup64.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe'
-  url           = $url
-  url64bit      = $url64
+  url           = 'https://github.com/open-osrs/launcher/releases/download/2.2.0/OpenOSRSSetup32.exe'
+  url64         = 'https://github.com/open-osrs/launcher/releases/download/2.2.0/OpenOSRSSetup64.exe'
 
   softwareName  = 'openosrs*'
 

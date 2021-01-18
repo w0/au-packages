@@ -1,24 +1,25 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>openosrs</id>
-    <version>2.2.0.20200716</version>
+    <version>2.2.0.20210118</version>
     <packageSourceUrl>https://github.com/w0/au-packages/tree/master/openosrs</packageSourceUrl>
     <owners>wizard</owners>
     <title>OpenOSRS</title>
     <authors>OpenOSRS</authors>
     <projectUrl>https://openosrs.com/</projectUrl>
-    <iconUrl>https://cdn.statically.io/gh/w0/au-packages/89342735/openosrs/icon/openosrs_icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/w0/au-packages/openosrs/icon.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <licenseUrl>https://github.com/open-osrs/launcher/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/open-osrs/launcher</projectSourceUrl>
-    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
-    <tags>openosrs client osrs old school runescape</tags>
+    <docsUrl>https://github.com/open-osrs/runelite/wiki</docsUrl>
+    <tags>openosrs client osrs old school runescape games</tags>
     <summary>Open-source client with more functionality and less restrictions. </summary>
-    <description>Open-source client with more functionality and less restrictions. </description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <description><![CDATA[OpenOSRS is a fully open-source client with no restrictions.
+]]></description>
+    <releaseNotes>https://openosrs.com/updates</releaseNotes>
   </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->
