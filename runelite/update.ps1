@@ -7,8 +7,8 @@ $domain   = 'https://github.com'
 function global:au_SearchReplace {
     @{
         "tools\chocolateyInstall.ps1" = @{
-            "(url\s*=\s*)('.*')"      = "`$1'$($Latest.URL32)'"
-            "(url64\s*=\s*)('.*')"    = "`$1'$($Latest.URL64)'"
+            "(url\s*=\s*)('.*')"          = "`$1'$($Latest.URL32)'"
+            "(url64\s*=\s*)('.*')"        = "`$1'$($Latest.URL64)'"
             "(checksum\s*=\s*)('.*')"     = "`$1'$($Latest.Checksum32)'"
             "(checksum64\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum64)'"
 
@@ -24,9 +24,9 @@ function global:au_GetLatest {
     $version = $url32 -split '/' | select -last 1 -skip 1 
 
     return @{    
-        Version = $version;    
-        URL32 = $domain + $url32
-        URL64 = $domain + $url64
+        Version = $version    
+        URL32   = $domain + $url32
+        URL64   = $domain + $url64
      }
 }
 
