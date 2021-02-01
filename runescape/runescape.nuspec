@@ -1,24 +1,29 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>runescape</id>
-    <version>2.2.8.20210109</version>
+    <version>2.2.8.20210131</version>
     <packageSourceUrl>https://github.com/w0/au-packages/tree/master/runescape</packageSourceUrl>
-    <owners>benbristow wizard</owners>
+    <owners>wizard</owners>
     <title>RuneScape</title>
     <authors>Jagex Ltd.</authors>
     <projectUrl>https://www.runescape.com/</projectUrl>
-    <iconUrl>https://cdn.statically.io/gh/w0/au-packages/d48b1a93/runescape/icon/runescape_launcher.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/w0/au-packages/runescape/icon.png</iconUrl>
     <copyright>2021 Jagex Ltd. RuneScape</copyright>
     <licenseUrl>https://www.jagex.com/en-GB/legal/eula-runescape-oldschool</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <docsUrl>https://support.runescape.com/hc/en-gb/categories/200977411</docsUrl>
     <tags>runescape jagex games</tags>
     <summary>RuneScape 3, is a fantasy massively multiplayer online role-playing game.</summary>
-    <description>RuneScape, sometimes referred to as RuneScape 3, is a fantasy massively multiplayer online role-playing game developed and published by Jagex, first released in January 2001.</description>
+    <description><![CDATA[RuneScape is a high fantasy open world MMORPG. Explore an ever changing and evolving living world where new challenges, skills, and quests await. Featuring unprecedented player freedom, you choose how to play, adventure, and grow.
+
+![image](https://steamcdn-a.akamaihd.net/steam/apps/1343400/extras/RS3-01m_Section_header_image_1-WELCOME_TO_RUNESCAPE-EN.png?t=1606388480)
+
+Journey into the Sixth Age of Gielinor and discover a fantasy world deep with legend and lore. Gielinor's people may be thriving, but the Elder Gods still scheme. The clouds are darkening and war looms. Experience a fantasy online world 19 years in the making.
+]]></description>
     <releaseNotes>https://secure.runescape.com/m=news/</releaseNotes>
     <dependencies>
-      <dependency id='directx' />
+      <dependency id="directx" />
     </dependencies>
   </metadata>
   <files>
