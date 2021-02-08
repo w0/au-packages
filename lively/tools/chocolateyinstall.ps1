@@ -1,7 +1,7 @@
 ﻿
 $ErrorActionPreference = 'Stop';
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url      = 'https://github.com/rocksdanister/lively/releases/download/v1.1.8.0/lively_setup_x86_full_v1180.exe'
+$url      = 'https://github.com/rocksdanister/lively/releases/download/v1.1.9.0/lively_setup_x86_full_v1190.exe'
 
 $MinBuildSupported = '18362'
 $CurrentBuild      = [System.Environment]::OSVersion.Version.Build
@@ -20,7 +20,7 @@ $packageArgs = @{
 
   softwareName   = 'lively*'
 
-  checksum       = 'b9faf8638e178e98cdec421c869203255b832f1f17c5d6402db7ed69bb00d1fe'
+  checksum       = '35bb61abd3852defe40dbde5778bd849e356fd3441457fb493a76ea9533a252e'
   checksumType   = 'sha256'
 
   silentArgs     = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /ALLUSERS /NODEPENDENCIES /NOAUTOLAUNCH'
