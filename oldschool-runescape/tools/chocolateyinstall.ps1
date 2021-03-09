@@ -1,4 +1,4 @@
-
+﻿
 $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url        = 'https://www.runescape.com/downloads/oldschool.msi'
@@ -11,7 +11,7 @@ $packageArgs = @{
 
   softwareName  = 'OldSchool RuneScape Launcher*'
 
-  checksum      = '0BBFBA3444CABBF3F213598386A93BC4A7EF782157F900F01413883C153F10C0'
+  checksum      = '0bbfba3444cabbf3f213598386a93bc4a7ef782157f900f01413883c153f10c0'
   checksumType  = 'sha256'
 
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""

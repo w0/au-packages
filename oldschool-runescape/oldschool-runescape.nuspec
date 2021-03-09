@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>oldschool-runescape</id>
-    <version>1.2.7</version>
+    <version>1.2.7.20210109</version>
     <packageSourceUrl>https://github.com/w0/au-packages/tree/master/oldschool-runescape</packageSourceUrl>
     <owners>wizard</owners>
     <title>Old School RuneScape</title>
