@@ -1,22 +1,24 @@
 ﻿
 $ErrorActionPreference = 'Stop';
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url      = 'https://github.com/rocksdanister/lively/releases/download/v1.4.0.0/lively_setup_x86_full_v1400.exe'
 
 $MinBuildSupported = '18362'
 $CurrentBuild      = [System.Environment]::OSVersion.Version.Build
 
 if ( $CurrentBuild -lt $MinBuildSupported ) {
-  
-  Write-Output 'Unsupported build of Windows. Minimum supported build is {0}. Please update to avoid errors.' -f $MinBuildSupported
+  Write-Output ('Unsupported build of Windows. Minimum supported build is {0}. Please update to avoid errors.' -f $MinBuildSupported)
+}
 
+Get-Process 'Lively*' | % {
+  Write-Output ('Closing: {0}' -f $_.ProcessName)
+  Stop-Process -InputObject $_ -Force
 }
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   unzipLocation  = $toolsDir
   fileType       = 'exe'
-  url            = $url
+  url            = 'https://github.com/rocksdanister/lively/releases/download/v1.4.0.0/lively_setup_x86_full_v1400.exe'
 
   softwareName   = 'lively*'
 
