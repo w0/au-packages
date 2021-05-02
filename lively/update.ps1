@@ -6,10 +6,9 @@ $releases = 'https://github.com/rocksdanister/lively/releases'
 function global:au_SearchReplace {
    @{
         ".\tools\chocolateyInstall.ps1" = @{
-            "(?i)(url\s*=\s*)('.*')"          = "`$1'$($Latest.URL32)'"
+            "(?i)(url\s*=\s*)('.*')"              = "`$1'$($Latest.URL32)'"
             "(?i)(^\s*checksum\s*=\s*)('.*')"     = "`$1'$($Latest.Checksum32)'"
             "(?i)(^\s*fileType\s*=\s*)('.*')"     = "`$1'$($Latest.FileType)'"
-
         }
 
         "$($Latest.PackageName).nuspec" = @{
@@ -17,7 +16,6 @@ function global:au_SearchReplace {
         }
     }
 }
-
 
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
