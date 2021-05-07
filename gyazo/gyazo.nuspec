@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>gyazo</id>
+    <version>0.0</version>
+    <packageSourceUrl>https://www.github.com/w0/au-packages</packageSourceUrl>
+    <owners>wizard</owners>
+    <title>Gyazo</title>
+    <authors>Nota Inc.</authors>
+    <projectUrl>https://gyazo.com/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/w0/au-packages/gyazo/icon.png</iconUrl>
+    <copyright>2021 Gyazo Nota Inc.</copyright>
+    <licenseUrl>https://gyazo.com/doc/terms</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/gyazo/</projectSourceUrl>
+    <docsUrl>https://helpfeel.com/Gyazo/</docsUrl>
+    <tags>gyazo screenshot capture share screengrab screen</tags>
+    <summary>Share screen captures instantly.</summary>
+    <description><![CDATA[Take screenshots, GIFS, and replays that are ready to share. Save what's on your screen without missing a moment.
+]]></description>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
