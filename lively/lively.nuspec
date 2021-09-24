@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>lively</id>
-    <version>1.7.0.4</version>
+    <version>1.7.2.0</version>
     <packageSourceUrl>https://github.com/w0/au-packages/tree/master/lively</packageSourceUrl>
     <owners>wizard</owners>
     <title>Lively Wallpaper</title>
@@ -77,7 +77,7 @@
 - Duplicate same wallpaper all screens.
 - Different wallpaper per screens.
 ]]></description>
-  <releaseNotes>https://github.com/rocksdanister/lively/releases/tag/v1.7.0.4</releaseNotes>
+  <releaseNotes>https://github.com/rocksdanister/lively/releases/tag/v1.7.2.0</releaseNotes>
     <dependencies>
       <dependency id="vcredist140" version="14.24.28127.4" />
       <dependency id="dotnetcore-desktopruntime" version="3.1.9" />
