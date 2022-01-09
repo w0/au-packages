@@ -21,8 +21,13 @@ function global:au_GetLatest {
     $temp_file = Join-Path $env:TEMP 'RuneScape.exe'
     Invoke-WebRequest -Uri $url32 -OutFile $temp_file
 
-    # not sure why but I need to explicity define as version.
     $version = Get-Item $temp_file | % { $_.VersionInfo.ProductVersion -as [version] }
+
+    $old_sha = (Select-String -Path '.\tools\chocolateyinstall.ps1' -Pattern "(checksum\s*=\s*)('.*')").Line.Split("'")[1]
+
+    $new_sha = (Get-FileHash -Path $temp_file -Algorithm 'sha256').Hash 
+
+    if ($old_sha -ne $new_sha) { $version = '{0}.{1}' -f $version, (Get-Date -UFormat "%Y%m%d") }
 
     return @{ 
         Version = $version
