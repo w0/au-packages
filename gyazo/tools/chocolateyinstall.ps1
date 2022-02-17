@@ -10,7 +10,7 @@ $packageArgs = @{
   softwareName  = 'gyazo*'
   checksum      = 'a3475c506287530995359ae10df0ee4adec8eadbe8bf34d6d9b83fe701f008e3'
   checksumType  = 'sha256'
-  silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+  silentArgs   = '/SUPPRESSMSGBOXES /NORESTART /SP-'
   validExitCodes= @(0)
 }
 
