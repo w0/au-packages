@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>logseq</id>
+    <version>0.0</version>
+    <packageSourceUrl>https://github.com/w0/au-packages/tree/master/logseq</packageSourceUrl>
+    <owners>wizard</owners>
+    <title>logseq</title>
+    <authors>logseq</authors>
+    <projectUrl>https://github.com/logseq/logseq</projectUrl>
+    <iconUrl>http://rawcdn.githack.com/w0/au-packages/master/logseq/icon.png</iconUrl>
+    <copyright>2021 Logseq</copyright>
+    <licenseUrl>https://github.com/logseq/logseq/blob/86ea102b89315adea5365c1a36984ecbd73c524b/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/logseq/logseq</projectSourceUrl>
+    <docsUrl>https://logseq.github.io</docsUrl>
+    <bugTrackerUrl>https://github.com/logseq/logseq</bugTrackerUrl>
+    <tags>logseq obsidian notekeeping note keeping editor org-mode org markdown knowledge base kb</tags>
+    <summary>A local-first, non-linear, outliner notebook for organizing and sharing your personal knowledge base.
+
+Use it to organize your todo list, to write your journals, or to record your unique life.</summary>
+    <description><![CDATA[Logseq is a platform for knowledge management and collaboration. It focuses on privacy, longevity, and user control.
+
+The server will never store or analyze your private notes. Your data are plain text files and we currently support both Markdown and Emacs Org mode (more to be added soon).
+
+In the unlikely event that the website is down or cannot be maintained, your data is, and will always be yours.
+]]></description>
+    <releaseNotes>https://github.com/logseq/logseq/releases/tag/0.6.1</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
