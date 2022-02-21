@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>runescape</id>
-    <version>2.2.9.20220124</version>
+    <version>2.2.9.20220221</version>
     <packageSourceUrl>https://github.com/w0/au-packages/tree/master/runescape</packageSourceUrl>
     <owners>wizard</owners>
     <title>RuneScape</title>
