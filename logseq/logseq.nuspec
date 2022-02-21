@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>logseq</id>
-    <version>0.0</version>
+    <version>0.6.1</version>
     <packageSourceUrl>https://github.com/w0/au-packages/tree/master/logseq</packageSourceUrl>
     <owners>wizard</owners>
     <title>logseq</title>
