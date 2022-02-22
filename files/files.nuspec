@@ -73,7 +73,7 @@ Want to contribute to this project? Feel free to open an [issue](https://github.
 
 ## Screenshots
 
-![Files](https://github.com/files-community/Files/src/Files/Assets/FilesHome.png)
+![Files]()
 ]]></description>
     <releaseNotes>https://github.com/files-community/Files/releases/tag/v2.1.13</releaseNotes>
     <dependencies>
@@ -82,6 +82,5 @@ Want to contribute to this project? Feel free to open an [issue](https://github.
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
-    <file src="legal\**" target="legal" />
   </files>
 </package>

@@ -8,29 +8,25 @@ function global:au_SearchReplace {
             "(\<releaseNotes\>).*?(\</releaseNotes\>)" = "`${1}$($Latest.ReleaseNotes)`$2"
         }
 
-        ".\legal\VERIFICATION.txt" = @{
-          "(?i)(\s+zip:).*"                            = "`${1} $($Latest.url32)"
-          "(?i)(checksumZip:).*"                       = "`${1} $($Latest.Checksum32)"
+        "tools\chocolateyInstall.ps1" = @{
+            "(url\s*=\s*)('.*')"          = "`$1'$($Latest.URL)'"
+            "(checksum\s*=\s*)('.*')"     = "`$1'$($Latest.Checksum32)'"
         }
 
     }
-}
-
-function global:au_BeforeUpdate {
-     Get-RemoteFiles -Purge -NoSuffix
 }
 
 function global:au_GetLatest {
     $download_page = Invoke-RestMethod -Uri $releases
 
     $re      = '\.zip$'
-    $url     = $download_page.assets | ? name -match $re | select -expand browser_download_url
+    $zip     = $download_page.assets | ? name -match $re | select -expand browser_download_url
 
     @{
         Version      = $download_page.tag_name.trim('v')
-        url32        = $url
+        URL          = $zip
         ReleaseNotes = $download_page.html_url
     }
 }
 
-update -ChecksumFor none
+update

@@ -9,15 +9,16 @@ if (($WindowsVersion.Major -ne '10') -and ($WindowsVersion.Build -lt '18362')) {
 }
 
 $packageArgs = @{
-  packageName  = $env:ChocolateyPackageName
-  FileFullPath = Get-Item $toolsDir\*.zip
-  Destination  = $toolsDir
+  packageName        = $env:ChocolateyPackageName
+  url                = 'https://github.com/files-community/Files/releases/download/v2.1.13/Files.Package_2.1.13.0.zip'
+  unZipLocation      = $toolsDir
+  checksum           = '014de3d5850803ed0934feb6805a5d90e687d237dc8d8923d94d1c4cfab9c94f'
+  checksumType       = 'sha256'
+  getOriginalFileName= $true
 
 }
 
-Get-ChocolateyUnzip @packageArgs
-
-Remove-Item $toolsDir\*.zip -ea 0
+Install-ChocolateyZipPackage @packageArgs
 
 $MSIX = Get-ChildItem -Path $toolsDir -Recurse -Filter "*.msixbundle"
 
