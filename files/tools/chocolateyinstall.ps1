@@ -10,9 +10,9 @@ if (($WindowsVersion.Major -ne '10') -and ($WindowsVersion.Build -lt '18362')) {
 
 $packageArgs = @{
   packageName        = $env:ChocolateyPackageName
-  url                = 'https://github.com/files-community/Files/releases/download/v2.1.13/Files.Package_2.1.13.0.zip'
+  url                = 'https://github.com/files-community/Files/releases/download/v2.1.15/Files.Package_2.1.15.0.zip'
   unZipLocation      = $toolsDir
-  checksum           = '014de3d5850803ed0934feb6805a5d90e687d237dc8d8923d94d1c4cfab9c94f'
+  checksum           = 'bef0c393da4388a91551a9fc6406aced8c91ff75ab7d55e809bcaf851da0b0b9'
   checksumType       = 'sha256'
   getOriginalFileName= $true
 
