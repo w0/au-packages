@@ -76,9 +76,6 @@ Want to contribute to this project? Feel free to open an [issue](https://github.
 ![Files]()
 ]]></description>
     <releaseNotes>https://github.com/files-community/Files/releases/tag/v2.1.15</releaseNotes>
-    <dependencies>
-      <dependency id="vcredist140" version="14.20.27508.1" />
-    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

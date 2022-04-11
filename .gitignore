@@ -11,3 +11,4 @@ api_key
 *.msi
 *.rar
 *.zip
+*.appinstaller
