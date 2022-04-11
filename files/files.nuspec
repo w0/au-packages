@@ -79,5 +79,6 @@ Want to contribute to this project? Feel free to open an [issue](https://github.
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
+    <file src="legal\**" target="legal" />
   </files>
 </package>
