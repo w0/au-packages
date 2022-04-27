@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>lively</id>
-    <version>2.0.0.1</version>
+    <version>1.7.4.2</version>
     <packageSourceUrl>https://github.com/w0/au-packages/tree/master/lively</packageSourceUrl>
     <owners>wizard</owners>
     <title>Lively Wallpaper</title>
