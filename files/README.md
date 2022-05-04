@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Files Logo" src="src/Files.Uwp/Assets/AppTiles/StoreLogo.scale-400.png" width="100px" />
+  <img alt="Files Logo" src="https://github.com/files-community/Files/blob/10eb88500ff333ddc70f9a9503f7bcca90a5c56e/src/Files.Uwp/Assets/AppTiles/StoreLogo.scale-400.png" width="100px" />
   <h1 align="center">Files</h1>
 </p>
 
