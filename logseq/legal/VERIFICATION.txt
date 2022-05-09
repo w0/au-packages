@@ -7,7 +7,7 @@ Package can be verified like this:
 
 1. Go to
 
-   x32: https://github.com/logseq/logseq/releases/download/0.6.7/Logseq-win-x64-0.6.7.exe
+   x32: https://github.com/logseq/logseq/releases/download/0.6.8/Logseq-win-x64-0.6.8.exe
 
    to download the installer.
 
@@ -15,7 +15,7 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum32: FDE7C1F0F90F90775350B72BBC88BC72B8D48EA940F74DD5E82DC03CD4F5453D
+   checksum32: 1F2CDD7BADFBAAB2E4EA8FB116ECF08A678E73ED2A9429E9185E65983491962F
 
 File 'license.txt' is obtained from:
    https://github.com/logseq/logseq/blob/master/LICENSE.md
