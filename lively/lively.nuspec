@@ -80,7 +80,7 @@
   <releaseNotes>https://github.com/rocksdanister/lively/releases/tag/v2.0.2.4</releaseNotes>
     <dependencies>
       <dependency id="vcredist140" version="14.24.28127.4" />
-      <dependency id="dotnetcore-desktopruntime" version="3.1.9" />
+      <dependency id="dotnet" version="6.0.6" />
     </dependencies>
   </metadata>
   <files>
