@@ -59,7 +59,7 @@ jobs:
         "Build Info"
         '  {0,-20} {1}' -f 'SCHEDULED BUILD:', ($env:GITHUB_EVENT_NAME  -eq 'schedule'         )
         '  {0,-20} {1}' -f 'FORCED BUILD:'   , ($env:GITHUB_EVENT_NAME  -eq 'workflow_dispatch')
-        '  {0,-20} {1}' -f 'RE BUILD:'       , ($env:GITHUB_RUN_ATTEMPT -gt  2                 )
+        '  {0,-20} {1}' -f 'RE BUILD:'       , ($env:GITHUB_RUN_ATTEMPT -gt  1                 )
     
     - name: update all
       shell: pwsh
