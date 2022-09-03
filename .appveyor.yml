@@ -21,6 +21,8 @@ environment:
   github_user_repo: w0/au-packages
   github_api_key:
     secure: 6yGyOEg/lekiCU9TRZ7gdYvKTxqCsHxyeQQY/1LW3fxdGjU5S31FXwWS/tHSaRYt
+  github_gist_key:
+    secure: CxlI0fQzEySNWnqd5frWtivxMLz0bYkzljGlcDc+eM6kDNU83bu3zN+JMyQjojY0
 
 
   # Mail credentials - for error notifications
