@@ -26,8 +26,6 @@ env:
   # Force test: gist id for test results
   gist_id_test: 49f0a08f742516f9384f43bd16f1d02a
 
-  api_key: {{ $secrets.API_KEY }}
-
 jobs:
   update:
     runs-on: windows-2019
