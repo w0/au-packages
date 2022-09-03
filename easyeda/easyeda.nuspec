@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>easyeda</id>
+    <version>__REPLACE__</version>
+    <packageSourceUrl>https://github.com/w0/au-packages/tree/master/easyeda</packageSourceUrl>
+    <owners>wizard</owners>
+    <title>EasyEDA</title>
+    <authors>easyeda.com</authors>
+    <projectUrl>https://easyeda.com/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/w0/au-packages/easyeda/icon.png</iconUrl>
+    <copyright>EasyEDA easyeda.com</copyright>
+    <licenseUrl>https://easyeda.com/page/legal</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://docs.easyeda.com/en/Introduction/Introduction-to-EasyEDA/index.html</docsUrl>
+    <tags>easyeda pcb</tags>
+    <summary>An Easier and Powerful PCB Design Tool</summary>
+    <description><![CDATA[# The Next Generation of PCB Design Tool
+
+## More Than 1 Million Free Libraries
+  - More than 1 million real-time updated components have been created,
+letting you focus on the design, and you can create or import your own common libraries.
+
+## Integrated LCSC Component catalog
+Benefit from China’s leading electronic components distributor - LCSC ,
+EasyEDA supports direct links to more than 200,000 real-time, in-stock components at LCSC .
+Designers can refer to stocks, prices, and order at any time during design. 
+
+## Fast Experience
+  - Easy to use. If you have used other PCB tools then you can use it even more quickly.
+  - Light weight, less resource requirement, smoother experience, speed up your design.
+  - Free activation and authorization, you can use it by registering and logging in, and you don't have to endure the cracked EDA anymore.
+
+
+## File Security
+  - Local backup automatically with document recovery at any time.
+  - Your files will also be saved on the cloud server, giving you double backup for you data security.
+]]></description>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
