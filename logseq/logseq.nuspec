@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>logseq</id>
-    <version>0.8.7</version>
+    <version>0.8.8</version>
     <packageSourceUrl>https://github.com/w0/au-packages/tree/master/logseq</packageSourceUrl>
     <owners>wizard</owners>
     <title>logseq</title>
@@ -26,7 +26,7 @@ The server will never store or analyze your private notes. Your data are plain t
 
 In the unlikely event that the website is down or cannot be maintained, your data is, and will always be yours.
 ]]></description>
-    <releaseNotes>https://github.com/logseq/logseq/releases/tag/0.8.7</releaseNotes>
+    <releaseNotes>https://github.com/logseq/logseq/releases/tag/0.8.8</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
