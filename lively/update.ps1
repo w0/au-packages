@@ -1,7 +1,7 @@
 import-module au
 . $PSScriptRoot\..\_scripts\all.ps1
 
-$releases = 'https://github.com/rocksdanister/lively/releases'
+$releases = 'https://api.github.com/repos/rocksdanister/lively/releases/latest'
 
 function global:au_SearchReplace {
    @{
@@ -18,11 +18,10 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+    $download_page = Invoke-RestMethod -Uri $releases
 
     $re      = '\.exe$'
-    $url     = $download_page.links | Where-Object href -match $re | Select-Object -First 1 -expand href
-    $url     = 'https://github.com' + $url
+    $url     = $download_page.assets | ? name -match $re | Select-Object -First 1 -expand browser_download_url
     $version = $url -split '/' | Select-Object -Last 1 -Skip 1
 
     @{

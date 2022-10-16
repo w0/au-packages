@@ -1,8 +1,7 @@
 Import-Module AU
 . $PSScriptRoot\..\_scripts\all.ps1
 
-$releases = 'https://github.com/runelite/launcher/releases'
-$domain   = 'https://github.com'
+$releases = 'https://api.github.com/repos/runelite/launcher/releases/latest'
 
 function global:au_SearchReplace {
     @{
@@ -17,10 +16,10 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+    $download_page = Invoke-RestMethod -Uri $releases
 
-    $url64   = $download_page.links | ? href -match '\.exe$' | select -ExpandProperty href -First 1
-    $url32   = $download_page.links | ? href -match '32\.exe$' | select -ExpandProperty href -First 1
+    $url64   = $download_page.assets | ? name -Match '\.exe$'   | select -ExpandProperty browser_download_url -First 1
+    $url32   = $download_page.assets | ? name -Match '32\.exe$' | select -ExpandProperty browser_download_url -First 1
     $version = $url32 -split '/' | select -last 1 -skip 1 
 
     return @{    
