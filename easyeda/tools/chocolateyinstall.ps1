@@ -6,14 +6,14 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe'
-  url           = 'https://image.easyeda.com/files/easyeda-windows-ia32-6.5.20.exe'
-  url64bit      = 'https://image.easyeda.com/files/easyeda-windows-x64-6.5.20.exe'
+  url           = 'https://image.easyeda.com/files/easyeda-windows-ia32-6.5.22.exe'
+  url64bit      = 'https://image.easyeda.com/files/easyeda-windows-x64-6.5.22.exe'
 
   softwareName  = 'easyeda*'
 
-  checksum      = '7a945721470ef29035da2536b0014f579303dab1315448f8fa17d0aa2c60a34a'
+  checksum      = 'b7705c9a3477feb5680e148f61ea793887a51f6560a63f420335afc2432b7f99'
   checksumType  = 'sha256'
-  checksum64    = 'da3b83e738677ec77f7c840c4bd122616efe6b7a51bdcfc3df79026705b8c620'
+  checksum64    = '48c1938dff4512a1fb70bfbfbe895d721b28e47c845549aa74416ee0dc31d075'
   checksumType64= 'sha256'
   validExitCodes= @(0, 3010, 1641)
   silentArgs    = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
