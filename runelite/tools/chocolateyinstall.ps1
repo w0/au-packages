@@ -6,12 +6,12 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe'
-  url           = 'https://github.com/runelite/launcher/releases/download/2.6.2/RuneLiteSetup32.exe'
-  url64         = 'https://github.com/runelite/launcher/releases/download/2.6.2/RuneLiteSetup.exe'
+  url           = 'https://github.com/runelite/launcher/releases/download/2.6.3/RuneLiteSetup32.exe'
+  url64         = 'https://github.com/runelite/launcher/releases/download/2.6.3/RuneLiteSetup.exe'
   softwareName  = 'runelite*'
-  checksum      = '156472f6da6f485546dfe5f62e1d1117eacb0eff84fcaaa6da432d7726232c75'
+  checksum      = '79365f76cd2db4cdcbb7afbdc0a722722bf098fbe1f5f2e92fa760b05f4a4807'
   checksumType  = 'sha256'
-  checksum64    = 'a3981acd59824e7bed17f0ea6ab2977b0c6b359f963cee308fb29a4214a3528e'
+  checksum64    = '558515fbd1ea11585a5cb0f5aae7e8559399fd18ea28a22899035ba4a0b7e33b'
   checksumType64= 'sha256'
   silentArgs    = '/VERYSILENT /SUPPRESSMSGBOXES'
 }
