@@ -25,7 +25,7 @@ function global:au_GetLatest {
 
     @{
         Version      = $latest_release.tag_name.trim('v')
-        URL32          = 'https://files.community/appinstallers/Files.stable.appinstaller'
+        URL32          = 'https://files.community/appinstallers/Files.preview.appinstaller'
         ReleaseNotes = $latest_release.html_url
     }
 }
