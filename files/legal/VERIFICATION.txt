@@ -7,7 +7,7 @@ Package can be verified like this:
 
 1. Go to
 
-   x32: https://files.community/appinstallers/Files.stable.appinstaller
+   x32: https://files.community/appinstallers/Files.preview.appinstaller
 
    to download the installer.
 
@@ -15,7 +15,7 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum32: 865AF2E4D48940A6730D9C3382316513974440499927F65267CA30B2C8464EF3
+   checksum32: A9A69DEFCE08A52EEAA5FADF97DD363F7E1049A50A6CB4C364799CB4354D9B33
 
 File 'license.txt' is obtained from:
    https://github.com/files-community/Files/blob/main/LICENSE
