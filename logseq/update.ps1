@@ -12,7 +12,10 @@ function global:au_SearchReplace {
           "(?i)(\s+x32:).*"            = "`${1} $($Latest.URL32)"
           "(?i)(checksum32:).*"        = "`${1} $($Latest.Checksum32)"
         }
-
+        
+        "tools\chocolateyInstall.ps1" = @{
+            "(?i)(^[$]version\s*=\s*)('.*')" = "`$1'$($Latest.Version)'"
+        }
     }
 }
 
