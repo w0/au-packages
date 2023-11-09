@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>files</id>
-    <version>3.0.1</version>
+    <version>3.0.1.20231109</version>
     <packageSourceUrl>https://github.com/w0/au-packages/tree/master/files</packageSourceUrl>
     <owners>wizard</owners>
     <title>files</title>
