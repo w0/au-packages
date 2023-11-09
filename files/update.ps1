@@ -25,7 +25,7 @@ function global:au_GetLatest {
 
     @{
         Version      = $latest_release.tag_name.trim('v')
-        URL32          = 'https://cdn.files.community/files/download/Files.Stable.exe'
+        URL32        = 'https://cdn.files.community/files/preview/Files.Package.appinstaller'
         ReleaseNotes = $latest_release.html_url
     }
 }
