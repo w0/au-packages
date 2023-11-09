@@ -1,7 +1,7 @@
 Import-Module AU
 . $PSScriptRoot\..\_scripts\all.ps1
 
-$releases = 'https://gyazo.com/download?dl=now'
+$releases = 'https://gyazo.com/api/internal/download'
 
 function global:au_SearchReplace {
     @{
@@ -13,9 +13,9 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+    $download_page = Invoke-RestMethod -Uri $releases
 
-    $url32   = $download_page.links | ? href -match '\.exe$' | select -ExpandProperty href -First 1
+    $url32   = $download_page.download_url
     $version = (($url32 -split '/')[-1]) -replace ('(?i)(?:[gyazo]+)\-|\.exe', '')
 
     return @{    
