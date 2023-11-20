@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>easyeda</id>
-    <version>6.5.37</version>
+    <version>6.5.39</version>
     <packageSourceUrl>https://github.com/w0/au-packages/tree/master/easyeda</packageSourceUrl>
     <owners>wizard</owners>
     <title>EasyEDA</title>
