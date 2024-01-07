@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>files</id>
-    <version>3.0.15</version>
+    <version>3.1</version>
     <packageSourceUrl>https://github.com/w0/au-packages/tree/master/files</packageSourceUrl>
     <owners>wizard</owners>
     <title>files</title>
@@ -43,7 +43,7 @@ Want to contribute to this project? Feel free to open an [issue](https://github.
 
 ![Files](https://github.com/files-community/Files/blob/10eb88500ff333ddc70f9a9503f7bcca90a5c56e/src/Files.Uwp/Assets/FilesHome.png)
 ]]></description>
-    <releaseNotes>https://github.com/files-community/Files/releases/tag/v3.0.15</releaseNotes>
+    <releaseNotes>https://github.com/files-community/Files/releases/tag/v3.1</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
