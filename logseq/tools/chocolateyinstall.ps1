@@ -3,7 +3,7 @@ $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $softwareName = 'Logseq'
-$version = '0.10.6'
+$version = '0.10.7'
 if ($version -eq (Get-UninstallRegistryKey "$softwareName").DisplayVersion) {
   Write-Host "Logseq $version is already installed."
   return
