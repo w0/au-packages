@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>gyazo</id>
-    <version>5.4.5</version>
+    <version>5.4.6</version>
     <packageSourceUrl>https://www.github.com/w0/au-packages</packageSourceUrl>
     <owners>wizard</owners>
     <title>Gyazo</title>
