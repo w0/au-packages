@@ -15,7 +15,7 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum32: 9B62B1DE6C3901EF2FC818C02F99E0F682A0870670374359CCC96C4D4BAFC649
+   checksum32: 122087C567E2D7DC722F02E36F952E3DB2C1A8C428E8A13002D29BF239FE07A3
 
 File 'license.txt' is obtained from:
    https://github.com/files-community/Files/blob/main/LICENSE
