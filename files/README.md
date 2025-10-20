@@ -1,26 +1,55 @@
 <p align="center">
-  <img alt="Files Logo" src="https://github.com/files-community/Files/blob/10eb88500ff333ddc70f9a9503f7bcca90a5c56e/src/Files.Uwp/Assets/AppTiles/StoreLogo.scale-400.png" width="100px" />
-  <h1 align="center">Files</h1>
+  <img alt="Files hero image" src="https://github.com/files-community/Files/blob/main/.github/assets/ReadmeHero.png?raw=true" />
 </p>
 
-[![Build Status](https://dev.azure.com/filescommunity/Files/_apis/build/status/Build%20Pipeline?branchName=main)](https://dev.azure.com/filescommunity/Files/_build/latest?definitionId=4&branchName=main)
-[![Discord](https://discordapp.com/api/guilds/725513575971684472/widget.png)](https://discord.gg/files)
+<p align="center">
+  <a style="text-decoration:none" href="https://files.community/">
+    <img src="https://img.shields.io/badge/Files-Website-F9B81F" alt="Files Website" /></a>
+  <a style="text-decoration:none" href="https://github.com/files-community/Files/actions/workflows/ci.yml">
+    <img src="https://github.com/files-community/Files/actions/workflows/ci.yml/badge.svg" alt="Files CI Status" /></a>
+  <a style="text-decoration:none" href="https://crowdin.com/project/files-app">
+    <img src="https://badges.crowdin.net/files-app/localized.svg" alt="Files Localization Status" /></a>
+  <a style="text-decoration:none" href="https://discord.gg/files">
+    <img src="https://img.shields.io/discord/725513575971684472?label=Discord&color=7289da" alt="Files Discord" /></a>
+</p>
 
-## What is Files?
-Files is a file manager for Windows with a powerful yet intuitive design. It has features like multiple tabs, panes, columns, shell extensions in the context menu and tags.
+Files is a modern file manager that helps users organize their files and folders. Our mission with Files is to build the best file manager for Windows, and we’re proud to be building it out in the open so everyone can participate. User feedback helps shape the features we work on, & the bug reports on GitHub help to make Files more reliable. Built and maintained by the open-source community, Files features robust multitasking experiences, file tags, deep integrations, and an intuitive design.
 
-We welcome discussions and contributions to our repository, however to help maintain a healthy community, please read our [code of conduct](https://github.com/files-community/Files/blob/main/CODE_OF_CONDUCT.md).
+## Installing and running Files
 
-## Privacy
-We use App Center to track which settings are being used, find bugs, and fix crashes. Information sent to App Center is anonymous and free of any user or contextual data.
+Files is a community-driven project that depends on your support to grow and improve. Please consider purchasing Files through the Microsoft Store or supporting us on GitHub if you use the classic installer.
 
-## FAQ
-Have any questions? Check out our [documentation site](https://files.community/docs)!
+You can also use the preview version alongside the stable release to get early access to new features and improvements.
 
-## Contributors
+<p align="left">
+  <!-- Store Badge -->
+  <a style="text-decoration:none" href="https://apps.microsoft.com/detail/9NGHP3DX8HDX?launch=true&mode=full">
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="./assets/StoreBadge-dark.png" height="80" />
+      <img src="./assets/StoreBadge-light.png" height="80" />
+    </picture>
+  </a>
+  &ensp;
+  <!-- Classic Installer Badge -->
+  <a style="text-decoration:none" href="https://files.community/appinstallers/Files.stable.appinstaller">
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="./assets/ClassicInstallerBadge-dark.png" height="80" />
+      <img src="./assets/ClassicInstallerBadge-light.png" height="80" />
+    </picture>
+  </a>
+</p>
 
-Want to contribute to this project? Feel free to open an [issue](https://github.com/files-community/Files/issues) or [pull request](https://github.com/files-community/Files/pulls). View our [Contributing guidelines](https://github.com/files-community/Files/blob/main/.github/CONTRIBUTING.md) to make sure you're up to date on the latest guidelines for contributing to the Files codebase.
+## Building from source
+
+Instructions for building the source code can be found on our [documentation site](https://files.community/docs/contributing/building-from-source).
+
+
+## Contributing to Files
+
+Want to contribute to this project? Let us know with an [issue](https://github.com/files-community/Files/issues) that communicates your intent to create a [pull request](https://github.com/files-community/Files/pulls). Also, view our [contributing guidelines](https://github.com/files-community/Files/blob/main/.github/CONTRIBUTING.md) to make sure you're up to date on the coding conventions.
+
+Looking for a place to start? Check out the [task board](https://github.com/orgs/files-community/projects/3/views/2), where you can sort tasks by size and priority.
 
 ## Screenshots
 
-![Files](https://github.com/files-community/Files/blob/10eb88500ff333ddc70f9a9503f7bcca90a5c56e/src/Files.Uwp/Assets/FilesHome.png)
+![Files](https://github.com/files-community/Files/blob/main/.github/assets/FilesScreenshot.png?raw=true)
