@@ -12,6 +12,7 @@ function global:au_SearchReplace {
             "(?i)(^[$]version\s*=\s*)('.*')" = "`$1'$($Latest.Version)'"
             "(url64\s*=\s*)('.*')"          = "`$1'$($Latest.URL64)'"
             "(checksum64\s*=\s*)('.*')"     = "`$1'$($Latest.Checksum64)'"
+            "(?i)(^\s*checksumType64\s*=\s*)('.*')" = "`$1'$($Latest.ChecksumType64)'"
         }
     }
 }
@@ -29,4 +30,4 @@ function global:au_GetLatest {
     }
 }
 
-update
+update -ChecksumFor 64

@@ -17,7 +17,7 @@ $packageArgs = @{
   url64           = 'https://github.com/logseq/logseq/releases/download/0.10.14/Logseq-win-x64-0.10.14.exe'
   softwareName  = 'loqseq*'
   checksum64      = ''
-  checksumType  = 'sha256'
+  checksumType64  = 'sha256'
 }
 
 
