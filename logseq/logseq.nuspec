@@ -12,7 +12,7 @@
     <iconUrl>http://rawcdn.githack.com/w0/au-packages/master/logseq/icon.png</iconUrl>
     <copyright>2025 Logseq, Inc.</copyright>
     <licenseUrl>https://github.com/logseq/logseq/blob/86ea102b89315adea5365c1a36984ecbd73c524b/LICENSE.md</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/logseq/logseq</projectSourceUrl>
     <docsUrl>https://logseq.github.io</docsUrl>
     <bugTrackerUrl>https://github.com/logseq/logseq</bugTrackerUrl>
