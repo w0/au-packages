@@ -10,9 +10,9 @@ function global:au_SearchReplace {
         
         "tools\chocolateyInstall.ps1" = @{
             "(?i)(^[$]version\s*=\s*)('.*')"        = "`$1'$($Latest.Version)'"
-            "(?i)(^\s*(\$)url64\s*=\s*)('.*')"      = "`$1'$($Latest.URL64)'"
-            "(?i)(^\s*checksum64\s*=\s*)('.*')"     = "`$1'$($Latest.Checksum64)'"
-            "(?i)(^\s*checksumType64\s*=\s*)('.*')" = "`$1'$($Latest.ChecksumType64)'"
+            "(url64\s*=\s*)('.*')"                  = "`$1'$($Latest.URL64)'"
+            "(checksum64\s*=\s*)('.*')"             = "`$1'$($Latest.Checksum64)'"
+            "(checksumType64\s*=\s*)('.*')"         = "`$1'$($Latest.ChecksumType64)'"
         }
     }
 }
