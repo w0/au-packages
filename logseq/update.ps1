@@ -10,8 +10,8 @@ function global:au_SearchReplace {
         
         "tools\chocolateyInstall.ps1" = @{
             "(?i)(^[$]version\s*=\s*)('.*')" = "`$1'$($Latest.Version)'"
-            "(url\s*=\s*)('.*')"          = "`$1'$($Latest.URL32)'"
-            "(checksum\s*=\s*)('.*')"     = "`$1'$($Latest.Checksum32)'"
+            "(url64\s*=\s*)('.*')"          = "`$1'$($Latest.URL64)'"
+            "(checksum64\s*=\s*)('.*')"     = "`$1'$($Latest.Checksum64)'"
         }
     }
 }
@@ -24,7 +24,7 @@ function global:au_GetLatest {
 
     @{
         Version      = $download_page.tag_name
-        URL32        = $url
+        URL64        = $url
         ReleaseNotes = $download_page.html_url
     }
 }

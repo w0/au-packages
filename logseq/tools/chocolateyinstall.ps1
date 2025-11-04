@@ -14,9 +14,9 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe'
-  url           = 'https://github.com/logseq/logseq/releases/download/0.10.14/Logseq-win-x64-0.10.14.exe'
+  url64           = 'https://github.com/logseq/logseq/releases/download/0.10.14/Logseq-win-x64-0.10.14.exe'
   softwareName  = 'loqseq*'
-  checksum      = ''
+  checksum64      = ''
   checksumType  = 'sha256'
 }
 
