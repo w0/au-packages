@@ -14,11 +14,10 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe'
-  url64           = 'https://github.com/logseq/logseq/releases/download/0.10.14/Logseq-win-x64-0.10.14.exe'
+  url64         = ''
   softwareName  = 'loqseq*'
-  checksum64      = ''
-  checksumType64  = 'sha256'
+  checksum64    = ''
+  checksumType64= 'sha256'
 }
-
 
 Install-ChocolateyInstallPackage @packageArgs
