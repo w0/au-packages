@@ -9,13 +9,16 @@ if ($version -eq (Get-UninstallRegistryKey "$softwareName").DisplayVersion) {
   return
 }
 
+
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe'
-  file          = Get-Item $toolsDir\*.exe
-  softwareName  = 'logseq*'
-  validExitCodes= @(0)
+  url           = ''
+  softwareName  = 'loqseq*'
+  checksum      = ''
+  checksumType  = 'sha256'
 }
+
 
 Install-ChocolateyInstallPackage @packageArgs
