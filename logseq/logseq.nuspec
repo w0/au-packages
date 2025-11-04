@@ -30,6 +30,5 @@ In the unlikely event that the website is down or cannot be maintained, your dat
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
-    <file src="legal\**" target="legal" />
   </files>
 </package>
